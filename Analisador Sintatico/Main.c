@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <analisador.h>
+#include "Sintatico.h"
 
 int main(void){
     

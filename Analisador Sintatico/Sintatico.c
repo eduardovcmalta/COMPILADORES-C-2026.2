@@ -1,4 +1,4 @@
-#include "analisador.h"
+#include "Sintatico.h"
 
 void obtenha_simbolo(void){
     simbolo_lido = sequencia[pos++];
