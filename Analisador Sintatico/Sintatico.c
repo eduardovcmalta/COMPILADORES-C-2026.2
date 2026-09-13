@@ -1,5 +1,6 @@
 #include "Sintatico.h"
 
+
 void obtenha_simbolo(void){
     simbolo_lido = sequencia[pos++];
 }
@@ -57,7 +58,7 @@ void primario(void){
     }
 }
 
-/* procedimento ANALISADOR_SINTATICO */
+// procedimento ANALISADOR_SINTATICO 
 int analisador_sintatico(int *tokens){
     sequencia = tokens;
     pos = 0;
